@@ -2,6 +2,12 @@
 print("Hello python world!")
 print("Welcome to python world")
 
+#문자열 반복
+print("hello" * 10 )
+
+#print() 함수
+print("결과값은", 10 , "입니다.")
+
 # 중간점검 '3단 구구단의 일부를 출력하는 프로그램 작성'
 
 print("3 * 1 =", 3 * 1)
