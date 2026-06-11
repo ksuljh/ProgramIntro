@@ -24,7 +24,7 @@
 ```python
 print("파이썬에 오신 것을 환영합니다!")
 print("결과값은", 10, "입니다.")
-
+```
 
 
 # 📖 제2장: 변수와 수식 핵심 요약
@@ -47,7 +47,7 @@ next_age = age + 1
 
 # 3. str()을 활용한 문자열 결합 및 출력
 print(name + "님의 내년 나이는 " + str(next_age) + "살 입니다.")
-
+```
 
 
 # 📖 제3장: 조건문 핵심 요약
@@ -71,7 +71,7 @@ elif price > 20000 or card == "파이썬":
     print("일반 혜택: 배송비 무료")
 else:
     print("배송비 3000원이 추가됩니다.")
-
+```
 
 
 # 📖 제4장: 반복문 핵심 요약
@@ -106,7 +106,7 @@ for y in range(3):       # 바깥 반복문 (3줄 출력)
     for x in range(5):   # 안쪽 반복문 (한 줄에 별 5개)
         print("*", end="")
     print()              # 한 줄 출력이 끝나면 줄바꿈
-
+```
 
 
 # 📖 제5장: 함수 핵심 요약
@@ -139,7 +139,7 @@ rect_area, rect_perimeter = calculate_rect(w, h)
 
 print("사각형의 면적:", rect_area)
 print("사각형의 둘레:", rect_perimeter)
-
+```
 
 
 # 📖 제6장: 파이썬 자료구조 I (리스트) 핵심 요약
@@ -174,7 +174,7 @@ lowest = min(scores)  # 최소값 (최저 점수)
 print("정렬된 점수:", scores)
 print("최고 점수:", highest)
 print("최저 점수:", lowest)
-
+```
 
 
 # 📖 제7장: 파이썬 자료구조 II 핵심 요약
@@ -203,7 +203,7 @@ contacts.pop("LEE")              # 키를 이용해 특정 항목 삭제
 # get() 함수를 사용하면 없는 키를 검색해도 에러로 프로그램이 멈추지 않습니다.
 phone_number = contacts.get("KIM", "해당 연락처가 없습니다.")
 print("KIM의 전화번호:", phone_number)
-
+```
 
 
 # 📖 제8장: 객체와 클래스 핵심 요약
@@ -239,6 +239,6 @@ t = Television(9, 10, True)
 
 # 5. 객체의 메소드(동작) 호출 및 멤버 접근
 t.show()
-
+```
 t.set_channel(11) # 채널을 11로 변경
 t.show()
